@@ -1,0 +1,164 @@
+/* CSS Document */
+
+/* universal styles */
+
+body {
+	font-family: Helvetica, Arial;
+	font-size: 22px;
+	color: seashell;
+	background-color: black;
+	opacity: 0.9;
+	text-align: center;
+}
+
+a {
+	color: seashell;
+}
+
+
+/* Header styles */
+
+.header {
+	display: flex;
+	height: 69px;
+	border-bottom: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: seashell;
+	position: fixed;
+	width: 100%;
+	background-color: black;
+	top: 0;
+	justify-content: flex-start;
+	text-align: left;
+	/* margin-left: 0px;
+	margin-right: 0px; */
+}
+
+.logo {
+	flex-basis: 1;
+	flex-grow: 1;
+}
+
+/* navigation styles */
+
+.nav li {
+	display: inline-block;
+	margin-left: 5px;
+	margin-right: 20px;
+	
+}
+.nav {
+	flex-basis: 1;
+	text-align: left;
+}
+
+.header img {
+	height: 50px;
+	margin: 10px;
+}
+
+
+
+/* main content styles */
+.content {
+	padding-top: 69px;
+	margin-top: -10px;
+	min-width: 1200px;
+}
+
+/* mission styles */
+
+#mission {
+	display: flex;
+	justify-content: center;
+	background-image: url(../images/img-mission-background.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 700px;
+}
+
+#mission-text {
+	background-color: black;
+	width: 100%;
+	align-self: center;
+}
+
+/* featured tea styles */
+
+#featured-tea {
+	
+	max-width: 1000px;
+	flex-wrap: wrap;
+	margin: auto;
+	padding: 75px;
+}
+
+.teas {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#featured-tea img {
+	height: 200px;
+	width: 300px;
+	padding-bottom: 10px;
+	margin: 0;
+}
+
+.tea-header {
+	display: block;
+}
+
+figure {
+	padding: 10px;
+	margin: 0;
+}
+
+#featured-tea figcaption {
+	font-weight: bold;
+}
+
+/* location styles */
+
+#locations {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	background-image: url(../images/img-locations-background.jpg);
+	background-size: cover;
+	height: 500px;
+	
+}
+
+#locations h2 {
+	flex-basis: 100%;
+	display: block;
+	margin-bottom: 0;
+	font-weight: bold;
+}
+
+.address {
+	width: 300px;
+	background-color: black;
+	margin: 40px;
+	padding: 10px;
+	margin-top: 15px;
+	opacity: 1;
+}
+
+
+/* contact styles */
+
+.contact {
+	height: 200px;
+}
+
+/* footer styles */
+
+.footer {
+	text-align: left;
+	font-size: 15px;
+	font-weight: bold;
+}
